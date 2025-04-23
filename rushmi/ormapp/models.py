@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib import admin
-class Employee(models.Model):
+class MOVIE(models.Model):
     USER_ID = models.IntegerField(primary_key=True)
     USER_NAME = models.CharField(max_length=100)
     PHONE_NUMBER = models.IntegerField()
